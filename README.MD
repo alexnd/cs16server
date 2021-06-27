@@ -2,8 +2,8 @@
 
 ## Features
 
-* Runs in docker container with zero configuration
-* Default address is `0.0.0.0` ad port is `27015`
+* Run cs server in docker container with zero configuration
+* Default address is `0.0.0.0` and port is `27015`
 * AmxMod + Metamod + Podbots in the box
 
 ## Requirements to host and play
@@ -20,10 +20,9 @@
 
 ## Monitor
 
-* `docker-compose logs --follow hlds`
-
 * `docker ps -a`
 
+* `docker-compose logs --follow hlds`
 
 ## Stop / Start
 

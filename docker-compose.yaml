@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+
+  hlds:
+    container_name: counter-strike_server
+    image: febley/counter-strike_server:latest
+    restart: always
+    environment:
+      - PORT=27015
+      - MAP=de_dust2
+      - MAXPLAYERS=16
+      - SV_LAN=0
+    ports:
+      - 27015:27015/udp
+      - 27015:27015
+    volumes:
+      - ./addons:/hlds/cstrike/addons
+      - ./liblist.gam:/hlds/cstrike/liblist.gam
+      - ./banned.cfg:/hlds/cstrike/banned.cfg
+      - ./listip.cfg:/hlds/cstrike/listip.cfg
+      - ./server.cfg:/hlds/cstrike/server.cfg
+      - ./mapcycle.txt:/hlds/cstrike/mapcycle.txt

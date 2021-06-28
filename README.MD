@@ -32,7 +32,7 @@
 
 * `./ps` - Show docker containers status (`sudo docker ps -a`)
 
-* `./netstat` - Show docker containers status (`sudo netstat -tunlp`)
+* `./netstat` - Show network interfaces status (`sudo netstat -tunlp`)
 
 * `./stop` - Stop service (`docker-compose stop hlds`)
 

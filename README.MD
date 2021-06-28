@@ -2,13 +2,13 @@
 
 ## Features
 
-* Run cs server in docker container with zero configuration
+* Run official `Counter-Strike` server in docker container with zero configuration
 * Default address is `0.0.0.0` and port is `27015`
-* AmxMod + Metamod + Podbots in the box
+* AmxMod + Metamod + Podbots from the box
 
 ## Requirements to host and play
 
-* [Docker](https://docs.docker.com/engine/install/ubuntu/)
+* [Docker](https://docs.docker.com/engine/install/ubuntu/) with (docker-compose)[https://docs.docker.com/compose/]
 
 * [Official Counter-Strike 1.6 client](https://store.steampowered.com/app/10/CounterStrike/)
 
@@ -16,23 +16,34 @@
 
 * Copy [this](https://github.com/alexnd/cs16server) repository to your work dir
 
-* Run in your terminal `docker-compose up -d` in the root of `docker-compose.yaml`
+* In your terminal set your work dir as current working directory (`cd` where `docker-compose.yaml` is)
 
-## Monitor
+* Run in your terminal `chmod +x ./install`
 
-* `docker ps -a`
+* Run in your terminal `./install` (or `docker-compose up -d`)
 
-* `docker-compose logs --follow hlds`
+* After docker-compose build job is done run `./ps` to see status of `hlds` service
 
-## Stop / Start
+## Control scripts
 
-* `docker-compose stop hlds`
+* `./install` - Install and start docker container (`docker-compose up -d`)
 
-* `docker-compose start hlds`
+* `./log` - Show service console logs (`docker-compose logs --follow hlds`)
 
-## Enter interactive command shell
+* `./ps` - Show docker containers status (`sudo docker ps -a`)
 
-`docker-compose exec hlds /bin/bash`
+* `./netstat` - Show docker containers status (`sudo netstat -tunlp`)
+
+* `./stop` - Stop service (`docker-compose stop hlds`)
+
+* `./start` - Start service (`docker-compose start hlds`)
+
+* `./restart` - Restart service (`./stop && ./start`)
+
+* `./tty` - Enter interactive command shell (`docker-compose exec hlds /bin/bash`)
+
+* `./reinstall` - Reinstall container (`docker-compose up -d --force-recreate`)
+
 
 ## Config files
 
@@ -46,13 +57,9 @@
 
 `addons/amxmodx/configs/maps.ini`
 
-...
+. . .
 
 `addons/podbot/podbot.cfg`
-
-## Reinstall container
-
-`docker-compose up -d --force-recreate`
 
 ---
 

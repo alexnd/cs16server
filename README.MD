@@ -23,11 +23,11 @@
 
 * In your terminal set your work dir as current working directory (`cd` where `docker-compose.yaml` is)
 
-* Run in your terminal `chmod +x ./install`
+* Run in your terminal: `chmod +x ./install`
 
-* Run in your terminal `./install` (or `docker-compose up -d`)
+* Run `./install` (or `docker-compose up -d`)
 
-* After docker-compose build job is done run `./ps` to see status of `hlds` service
+* After docker compose build job is done, run `./ps` to see status of `hlds` service
 
 ## Control scripts
 

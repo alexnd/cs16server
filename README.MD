@@ -68,6 +68,8 @@
 
 ## RTFM
 
+* [Enable bridge in docker](https://docs.docker.com/network/bridge/)
+
 * [Metamod](http://metamod.org/), [Metamod docs](http://metamod.org/metamod.html)
 
 * [AmxModx](https://www.amxmodx.org/), [AmxModx docs](https://wiki.alliedmods.net/Category:Documentation_(AMX_Mod_X))

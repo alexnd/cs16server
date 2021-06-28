@@ -1,4 +1,4 @@
 #!/bin/bash
 
-chmod +x ./ps ./tty ./logs ./stop ./start ./restart ./install ./reinstall
+chmod +x ./ps ./tty ./logs ./stop ./start ./restart ./install ./reinstall ./netstat
 sudo docker-compose up -d

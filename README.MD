@@ -11,11 +11,11 @@
 
 ## Requirements to host and play
 
-* `Linux` or compatible environment for host
+* `Linux` or compatible environment to run host
 
 * [Docker](https://docs.docker.com/engine/install/ubuntu/) with [docker-compose](https://docs.docker.com/compose/)
 
-* [Official Counter-Strike 1.6 client](https://store.steampowered.com/app/10/CounterStrike/) (`Steam` client with `Counter-Strike` game installed)
+* [Official Counter-Strike 1.6 client](https://store.steampowered.com/app/10/CounterStrike/) (`Steam` client with `Counter-Strike` game installed) to play
 
 ## Setup
 

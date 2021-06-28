@@ -8,7 +8,7 @@
 
 ## Requirements to host and play
 
-* [Docker](https://docs.docker.com/engine/install/ubuntu/) with (docker-compose)[https://docs.docker.com/compose/]
+* [Docker](https://docs.docker.com/engine/install/ubuntu/) with [docker-compose](https://docs.docker.com/compose/)
 
 * [Official Counter-Strike 1.6 client](https://store.steampowered.com/app/10/CounterStrike/)
 
@@ -63,4 +63,4 @@
 
 ---
 
-* **Counter-Strike** - is registered trademark of **Valve** corporation
+* **Counter-Strike** - is registered trademark of **[Valve](https://www.valvesoftware.com/en/)** corporation

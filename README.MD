@@ -66,6 +66,16 @@
 
 `addons/podbot/podbot.cfg`
 
+## RTFM
+
+* [Metamod](http://metamod.org/), [Metamod docs](http://metamod.org/metamod.html)
+
+* [AmxModx](https://www.amxmodx.org/), [AmxModx docs](https://wiki.alliedmods.net/Category:Documentation_(AMX_Mod_X))
+
+* [PODBot](http://podbotmm.bots-united.com/doc_v3/html/pbmm.html)
+
+
+
 ---
 
 * **Counter-Strike** - is registered trademark of **[Valve](https://www.valvesoftware.com/en/)** corporation
